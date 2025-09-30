@@ -1,5 +1,24 @@
+/* eslint-disable no-unused-vars */
 import styled from "styled-components";
 import _default from "../../themes/default";
+
+export const SocialMediaIcons = styled.div`
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+`;
+
+// Single icon styling
+export const SocialMediaIcon = styled.a`
+  font-size: 1.8rem;
+  color: #fff;
+  transition: transform 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    transform: scale(1.2);
+    color: #1da1f2; /* you can customize per platform */
+  }
+`;
 
 export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};

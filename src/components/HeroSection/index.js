@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroBgAnimation from '../HeroBgAnimation'
-import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle,SocialMediaIcons,SocialMediaIcon, ResumeButton } from './HeroStyle'
-import HeroImg from '../../images/HeroImage.jpg'
+import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, SocialMediaIcons, SocialMediaIcon, ResumeButton } from './HeroStyle'
+import HeroImg from '../../images/HeroImageNoBg.png'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
 
@@ -29,6 +29,19 @@ const HeroSection = () => {
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
                         <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
+                        <SocialMediaIcons>
+                            <SocialMediaIcon href={Bio.github} target="_blank" rel="noopener noreferrer">
+                                <i className="fa-brands fa-github"></i>
+                            </SocialMediaIcon>
+
+                            <SocialMediaIcon href={Bio.linkedin} target="_blank" rel="noopener noreferrer">
+                                <i className="fa-brands fa-linkedin"></i>
+                            </SocialMediaIcon>
+
+                            <SocialMediaIcon href={Bio.twitter} target="_blank" rel="noopener noreferrer">
+                                <i className="fa-brands fa-x-twitter"></i>
+                            </SocialMediaIcon>
+                        </SocialMediaIcons>
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">

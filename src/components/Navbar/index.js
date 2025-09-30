@@ -1,9 +1,10 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent'
+import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
 import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
-import { Close, CloseRounded } from '@mui/icons-material';
+import { CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
 
 const Navbar = () => {
@@ -24,10 +25,11 @@ const Navbar = () => {
         </MobileIcon>
         <NavItems>
           <NavLink href="#about">About</NavLink>
-          <NavLink href='#skills'>Skills</NavLink>
           <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
+          <NavLink href='#skills'>Skills</NavLink>
+          <NavLink href='#contact'>ContactMe</NavLink>
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>
@@ -38,9 +40,6 @@ const Navbar = () => {
             <MobileLink href="#about" onClick={() => {
               setIsOpen(!isOpen)
             }}>About</MobileLink>
-            <MobileLink href='#skills' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Skills</MobileLink>
             <MobileLink href='#experience' onClick={() => {
               setIsOpen(!isOpen)
             }}>Experience</MobileLink>
@@ -50,6 +49,15 @@ const Navbar = () => {
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>
+            <MobileLink href='#skills' onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Skills</MobileLink>
+            <MobileLink href='#contact' onClick={() => {
+              setIsOpen(!isOpen)
+            }}>ContactMe</MobileLink>
+            <CloseRounded style={{ position: 'absolute', top: '10px', right: '10px', cursor: 'pointer' }} onClick={() => {
+              setIsOpen(!isOpen)
+            }} />
             <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
           </MobileMenu>
         }
