@@ -39,27 +39,6 @@ export const Bio = {
     },
   ];
   
-  export const education = [
-    {
-      id: 0,
-      img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEV0lEQVR4AWIAg9A+TkDx1QAtuRJEe61oreDbxtq2vZtOJ9+2bdvWvEmnM9+2bevo28Yat569zOw9p8J+qdtVt6reWCJ/uB7lB7CZqhnbGGizd842Q/kmTFo83pWdfnpTVmwYe6leIPCjFcp/TCGvx/0WeNyEFRFNjEDOB4mFILES599A5Ly2UdyDFQ1DTm9uivx5ILCcSJRZ/A2IHGPOK2nPioKZ12iWkPfC+YoKEnQNEp/qYT5kE29om70oueppRfJ9cl7T4uVmGL9miJJxbMizzbMVpZB9oIOf65Ao08diEDmasZUZihQf18MkMMNkUQMkftT8O7dlmeL0ZyFKeWGFKGtassKMZMz2vaEFyxKdovt1OHyAHNYhIeT/ukgmZi/KMHbg7IN6UyHi1y1xm5V9pxS5PqiCX+qSQHqi5Kg1FeQv/fvrvw/co/8vA3fvvg6izEOUsq4oRfy9zuVWrBF0OCRnXDn2kFZ/DN7zrj+G9FoK+5KtNSA4ELi4rihJH/FdDQpypmppieQhrL3866EDor+G7PnSn4P2PI+tCzrMzxnY8UP1pOL/0gZVD7RQDcP7f2FPEtFeU8/tuHJ9Bl17X7n42Ef19IbXiGDN+YJSDpOUUmdSiy/rpjcwcVtrtj7Qw7ifWVeUy2hw1RAvL+kFp3/h3cewD9Di/wGZzzD0jl/vTmkI5VeM72r2nS7y21RNV3kzSngFKuVeEKa1H2q+3Bat/kC23kB4645vmIhvJ0Fqe8ttcf8b7Bd0zadIrLB7GNuQ/3HNVBoc3Fd9fFNUjEiOxc4voefY+XNUqvTOEPEp2XRKhLZWh/wCREgjNDnvwXkp0rHYCOLxLAvoPN/Xqmd8w+nnVB2l15SKQG7OKtAZ4aNh09W/s11Pfk9Hut8E5bGJuNei5z32fbAtnbcY+0gruqYSo7Wl93Mf7ETvNttXme1h9HftIaxa43sF7EHYH2UEkleoKbEKuDw9zgvUSQ5XR7pBep0XpEd5XB3s+emlblC4zuPpRS4vnOcEaYh3NzkineP66oxNhBKun5yLtcdg3V043+kE6gCHp2cayHs1Uf5J+ii/fqddJHdm1eEIuac9T/XqsSDt5/nJODgbYc9XO9oiHeL4yWg4ne/5apjN1VQ4HQNns2yejnX9dCY9p2snSObSOjo7fmF0d5QY8v8oKR4hfwP2Ca7vb7vg7jUfPvZ8OdYNkhw+fBEicywicYrr3+07C9QkigZFCdE7BNHwsW4WESpdE6jdKZJdeToZO34P+Y8Rkcs6RbfobG3g+PfsgLTMtv10GnY2iBz04IVde2LiYZd7ICK9QKJvWQTk5h527S1IptPukYpJFEU9Uluj4exQa0A1qXHOGojSBKT1QuqIPebmOyFKt9j87qkeL1xSRixjQDfdIPK3KWquSA93ubqc9ARSj5VVQ/Zo4vLkODiUiMaL9oK7tnCgj2ISYD3n52zo5XNo6Sz61U0EYI8QgVW1cZ7svhZIMwAAAABJRU5ErkJggg==",
-      school: "Vishwakarma Institute of Information Technology, Pune",
-      date: "Aug 2020 - May 2024",
-      grade: "8.76 CGPA",
-      desc: "I had completed my Bachelor's degree in Computer Engineering at Vishwakarma Institute of Information Technology, Pune. I have completed 8 semesters and have a CGPA of 8.76 (till 7th Semester). I have taken courses in Python, Java, Data Structures, Algorithms,Machine Learning, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I was also a member of the Cyber Cell at VIIT, where I had learned and worked on exciting projects with a team of talented developers.",
-      degree: "Bachelor of Technology - BTech, Computer Engineering",
-    },
-    {
-      id: 1,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcufZ6MRe8oYZGNHpalS-B1ShUxw6Rje0Hmw&s",
-      school: "Satyam International, Patna",
-      date: "Apr 2017 - Apr 2019",
-      grade: "80.4%",
-      desc: "I completed my class 12 high school education at Satyam International, Patna, where I studied Science with Computer Science.",
-      degree: "ISC(XII), Science with Computer",
-    },
-  ];
-  
   export const projects = [
     {
       id: 0,
@@ -72,6 +51,7 @@ export const Bio = {
       tags: ["Power BI", "Excel", "Data Analysis",],
       category: "Data Analysis",
       github: "https://github.com/incognito0007/HR-ANALYTICS",
+      webapp: ""
     },
     {
       id: 1,
@@ -80,7 +60,7 @@ export const Bio = {
       description:
         "Conducted comprehensive SQL analysis on a music database system to identify the most popular albums and genres favored by audiences. Extracted and analyzed data to uncover key trends and insights within the music industry, including audience preferences and listening habits.",
       image:
-        "https://cdn.getmidnight.com/b5a0b552ae89a91aa34705031852bd16/2022/10/1_1---2022-10-03T100435.657.png",
+        "https://www.piano-composer-teacher-london.co.uk/wp-content/uploads/2021/06/255d68_486f8704bb7f4ffea1b2fa218664acf9mv21.webp",
       tags: [
         "SQL",
         "MS Excel",
@@ -88,6 +68,7 @@ export const Bio = {
       ],
       category: "SQL Data Analysis",
       github: "https://github.com/incognito0007/SQL-Project-Music-Database-Analysis",
+      webapp: ""
     },
     {
       id: 2,
@@ -100,6 +81,7 @@ export const Bio = {
       tags: ["Python", "Keras", "TensorFlow", "Machine Learning", "Jupyter", "numpy", "Pandas"],
       category: "machine learning",
       github: "https://github.com/incognito0007/Railway-safety-using-ML",
+      webapp: ""
     },
     {
       id: 3,
@@ -108,10 +90,11 @@ export const Bio = {
       description:
         "Developed a cutting-edge predictive model leveraging Convolutional Neural Network (CNN) architecture to facilitate rapid and accurate diagnosis of brain tumors. Analyzed a vast dataset comprising scanned MRI images of the human brain to autonomously detect crucial elements, thereby eliminating the necessity for human oversight. Utilized machine learning libraries such as Keras and TensorFlow to implement the CNN model, ensuring efficient processing and optimal performance.",
       image:
-        "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRohgqY3LHZagrtOAx4A57tcbdknAEcqpFgGA&s",
       tags: ["Keras", "tensorflow", "Convolutional Neural Network (CNN)", "matplotlin", "pandas"],
       category: "Predictive Model using CNN",
       github: "https://github.com/incognito0007/brain-tumor-detection-project",
+      webapp: ""
     },
   ];
 

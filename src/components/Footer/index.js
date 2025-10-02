@@ -87,11 +87,9 @@ function Footer() {
         <Logo>Ankit Anand</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
-          <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
-          <NavLink href="#education">Education</NavLink>
-          <NavLink href="#contact">ContactMe</NavLink>
+          <NavLink href="#skills">Skills</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.github} target="display"><i className="fa-brands fa-github"></i></SocialMediaIcon>
