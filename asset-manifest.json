@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ankit-portfolio/static/css/main.9eaa0508.css",
-    "main.js": "/ankit-portfolio/static/js/main.db360ca7.js",
+    "main.js": "/ankit-portfolio/static/js/main.00bd74c2.js",
     "static/media/HeroImageNoBg.png": "/ankit-portfolio/static/media/HeroImageNoBg.9ded39e809687835eadb.png",
     "static/media/fa-solid-900.woff2": "/ankit-portfolio/static/media/fa-solid-900.0ae4e6254fc19607c79e.woff2",
     "static/media/fa-brands-400.woff2": "/ankit-portfolio/static/media/fa-brands-400.e7461d69dbbff1310a5c.woff2",
@@ -9,10 +9,10 @@
     "static/media/fa-v4compatibility.woff2": "/ankit-portfolio/static/media/fa-v4compatibility.661bd6b7245d5205d3e1.woff2",
     "index.html": "/ankit-portfolio/index.html",
     "main.9eaa0508.css.map": "/ankit-portfolio/static/css/main.9eaa0508.css.map",
-    "main.db360ca7.js.map": "/ankit-portfolio/static/js/main.db360ca7.js.map"
+    "main.00bd74c2.js.map": "/ankit-portfolio/static/js/main.00bd74c2.js.map"
   },
   "entrypoints": [
     "static/css/main.9eaa0508.css",
-    "static/js/main.db360ca7.js"
+    "static/js/main.00bd74c2.js"
   ]
 }
