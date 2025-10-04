@@ -1,7 +1,41 @@
 /* eslint-disable no-unused-vars */
 import { Link as LinkR } from 'react-router-dom';
+import { NavLink as RouterLink } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 import styled from 'styled-components';
 import _default from '../../themes/default';
+
+export const NavRouteLink = styled(RouterLink)`
+  color: ${({ theme }) => theme.text_primary};
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    color: ${({ theme }) => theme.primary};
+  }
+
+  &.active {
+    border-bottom: 2px solid ${({ theme }) => theme.primary};
+    padding-bottom: 4px;
+  }
+`;
+
+export const NavScrollLink = styled(ScrollLink)`
+  color: ${({ theme }) => theme.text_primary};
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    color: ${({ theme }) => theme.primary};
+  }
+
+  &.active {
+    border-bottom: 2px solid ${({ theme }) => theme.primary};
+    padding-bottom: 4px;
+  }
+`;
 
 export const Nav = styled.div`
     background-color: ${({theme}) => theme.card_light};
@@ -70,6 +104,7 @@ export const NavLink = styled.a`
 
     &.active {
       border-bottom: 2px solid ${({ theme }) => theme.primary};
+      padding-bottom: 4px;
     }
 `;
 
