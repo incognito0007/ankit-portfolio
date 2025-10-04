@@ -9,7 +9,7 @@ export const Bio = {
     resume:
       "https://docs.google.com/document/d/1APBLgmhSWzLfIRz9P8s-Ic-N8o4T3Nn1VKOAB1ndmJc/edit?usp=sharing",
     linkedin: "https://www.linkedin.com/in/ankit-anand-820264206/",
-    twitter: "https://x.com/an_ki_t__07",
+    twitter: "https://x.com/ank1t_anand",
   };
   
   export const experiences = [
